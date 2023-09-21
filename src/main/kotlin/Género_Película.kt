@@ -1,3 +1,3 @@
 enum class Genero_Pelicula {
-    //TODO
+    Accion, Aventura, Animacion
 }

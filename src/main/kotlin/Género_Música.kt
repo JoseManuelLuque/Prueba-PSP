@@ -1,3 +1,3 @@
 enum class Genero_Musica {
-    //TODO
+    Pop, Rock, Rap
 }

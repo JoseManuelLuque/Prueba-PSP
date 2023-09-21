@@ -1,19 +1,21 @@
-abstract class Producto(titulo:String, precio:Float, anio:Int, descuentoProducto:Int) {
-    protected var titulo = ""
+abstract class Producto(titulo:String, precio:Double, anio:Int, descuentoProducto:Int) {
+    protected var Titulo = titulo
 
-    protected var precio = 0.0
+    protected var Precio = precio
 
-    protected var anio = 0
+    protected var Anio = anio
+
+    protected var Descuento = 0
 
     init {
-        this.titulo = titulo
-        this.precio = precio
-        this.anio = anio
-
+        Titulo = titulo
+        Precio = precio
+        Anio = anio
+        Descuento = descuentoProducto
     }
 
     fun obtenerDescuento(): Int {
-        //TODO
+        return Descuento
     }
 
 

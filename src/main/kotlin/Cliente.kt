@@ -1,11 +1,10 @@
 interface Cliente {
     fun aplicaDescuento(producto: Producto): Int{
-        //TODO
-        return 0
+        return producto.obtenerDescuento()
     }
 
-    fun pagar(cantidad:Float): Boolean{
+    fun pagar(cantidad:Double): Boolean{
         //TODO
-        return 0
+        return true
     }
 }
